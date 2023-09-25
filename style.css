@@ -75,7 +75,51 @@ section h1 span{
 
 section p{
     width: 604px;
-
+    
     color: #C2C2C2;
     text-align: center;
+    
+    font-size: 16px;
+}
+
+ section p span{
+    font-weight: 700;
+}
+
+section p strong{
+    color: #00BFA6;
+}
+
+.line{
+    width: 568px;
+    border: 1px solid #00BFA6;
+
+    margin: 0 auto;
+}
+
+footer{
+    margin-top: 27px;
+
+    font-family: 'JetBrains Mono', monospace;
+
+    color: #FFF;
+
+    text-align: center;
+
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 28px;
+}
+
+footer a {
+    color: #FFF;
+}
+
+.cadeado{
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    margin-bottom: 20px;
+    margin-left: 20px;
 }
